@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { changeProducts }  from '../../store/categories';
 import Link from '@mui/material/Link';
-//TODO: Set up navbar with routes to each category of food and electronics
-//TODO: Have large Text that signifies the active category at center of page
+
 function Categories () {
 
   const { categories } = useSelector((state) => state.categories);

@@ -17,7 +17,7 @@ The following user/developer stories detail the major functionality for this pha
 ### Links and Resources
 
 - [GitHub Actions ci/cd](https://github.com/CodingKao/storefront/actions)
-- [front-end application]() (when applicable)
+- [front-end application](https://playful-licorice-86a9d1.netlify.app/) (when applicable)
 
 ### Collaborators
 
@@ -44,4 +44,4 @@ for now I have none and do not require one
 
 #### UML
 
-![Alt text]()
+![Application State with React](/src/assets/Application-State-with-Redux-UML.png)
