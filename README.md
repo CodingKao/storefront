@@ -45,3 +45,60 @@ for now I have none and do not require one
 #### UML
 
 ![Application State with React](/src/assets/Application-State-with-Redux-UML.png)
+
+# LAB - Class 37
+
+## Project: Combined Reducers
+
+
+### Problem Domain  
+
+In phase 2, we will be adding the “Add to Cart” feature to our application, which will allow our users to not only browse items in the store, but also select them and have them persist in their “shopping cart” for later purchase.
+
+The user stories from Phase 1 remain unchanged. For this phase, we are now adding the following new user stories to meet the new requirements.
+
+- As a user, I want to choose from products in the list and add them to my shopping cart.
+- As a user, I want to see the products that I’ve added to my shopping cart in a growing list on the side of the page”.
+- As a user, I want to change the quantity of items I intend to purchase in the header. i.e. CART (1)
+- As a user, I want to be able to remove an item from my shopping cart.
+
+Application Flow:
+
+- User sees a list of categories.
+- Chooses a category and sees a list of products.
+- Clicks the “Add to Cart” button on any product.
+- Sees a list of all products in the <SimpleCart /> side menu.
+- Clicks the delete button on an item and sees the item removed (see stretch goals for this lab).
+- Changes the cart total in the header. If two different products are in the cart you should see: CART (2)
+
+### Links and Resources
+
+- [GitHub Actions ci/cd](https://github.com/CodingKao/storefront/actions)
+- [front-end application](https://playful-licorice-86a9d1.netlify.app/) (when applicable)
+
+### Collaborators
+
+
+### Setup
+
+#### `.env` requirements (where applicable)
+
+for now I have none and do not require one
+
+#### How to initialize/run your application (where applicable)
+
+- e.g. `npm start`
+
+#### How to use your library (where applicable)
+
+#### Features / Routes
+
+- Display products from pre generated state in a redux store that can be changed by user clicks on the categories.
+
+#### Tests
+
+- npm test
+
+#### UML
+
+![Combined Reducer]()
