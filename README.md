@@ -149,3 +149,50 @@ for now I have none and do not require one
 #### UML
 
 ![Combined Reducer]()
+
+
+# LAB - Class 39
+
+## Project: Redux - Additional Topics
+
+
+### Problem Domain  
+
+In phase 4, we will be completing work on our Virtual Store by adding two full page views to the application: Product Details and Checkout.
+
+The user stories from Phases 1, 2 and 3 remain unchanged. For this phase, we are now adding the following new user stories to meet the new requirements.
+
+- As a user, I want to see a full detail view of a product so that I can make a more informed choice about purchasing it.
+- As a user, I want to view my full cart and initiate the checkout process so that I can purchase my items and have them delivered.
+
+### Links and Resources
+
+- [GitHub Actions ci/cd](https://github.com/CodingKao/storefront/actions)
+- [front-end application](https://playful-licorice-86a9d1.netlify.app/) (when applicable)
+
+### Collaborators
+
+
+### Setup
+
+#### `.env` requirements (where applicable)
+
+for now I have none and do not require one
+
+#### How to initialize/run your application (where applicable)
+
+- e.g. `npm start`
+
+#### How to use your library (where applicable)
+
+#### Features / Routes
+
+- Display products from pre generated state in a redux store that can be changed by user clicks on the categories.
+
+#### Tests
+
+- npm test
+
+#### UML
+
+![Combined Reducer]()
